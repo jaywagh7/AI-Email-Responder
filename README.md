@@ -4,6 +4,7 @@ A Streamlit application that automatically processes and generates professional 
 The app leverages LangChain, Groq, and Tavily for understanding, research, and response generation.
 
 🚀 Key Features
+
 ✅ Email Categorization:
 Automatically categorizes emails into specific types like price inquiries, complaints, product queries, feedback, or off-topic.
 
