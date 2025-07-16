@@ -16,7 +16,7 @@ Crafts polished and context-aware responses using the Groq API.
 ✅ Streamlit Interface:
 Easy-to-use web app where you can input emails, preview categorization & research, edit drafts, and send emails — all in real-time.
 
-#🗂️ Project Structure
+🗂️ Project Structure
 ```bash
 .
 ├── app.py                 # Main Streamlit app
@@ -37,11 +37,12 @@ Easy-to-use web app where you can input emails, preview categorization & researc
 └── venv/                  # Python virtual environment
 ```
 
-
 🛠️ Setup
+1️⃣ Clone the repository
+```bash
 git clone https://github.com/jaywagh7/AI-Email-Responder.git
 cd AI-Email-Responder
-
+```
 2️⃣ Create and activate a virtual environment
 ```bash
 # Install virtualenv if you don't have it
