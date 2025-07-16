@@ -86,8 +86,11 @@ streamlit run app.py
 
 ✨ Usage
 1️⃣ Enter the incoming email content in the text area.
+
 2️⃣ Enter the recipient’s email address.
+
 3️⃣ Click Generate Response & Send.
+
 4️⃣ Review the response:
 
 Edit it if needed.
