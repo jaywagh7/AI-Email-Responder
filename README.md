@@ -65,6 +65,10 @@ pip install -r requirements.txt
 4️⃣ Create .env file
 Copy .env.example to .env and fill in your credentials:
 ```bash
+
+GROQ_API_KEY
+TAVILY_API_KEY
+
 GROQ_API_KEY=your_groq_api_key
 TAVILY_API_KEY=your_tavily_api_key
 EMAIL_HOST=smtp.gmail.com
