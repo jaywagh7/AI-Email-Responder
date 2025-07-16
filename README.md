@@ -16,12 +16,13 @@ Crafts polished and context-aware responses using the Groq API.
 ✅ Streamlit Interface:
 Easy-to-use web app where you can input emails, preview categorization & research, edit drafts, and send emails — all in real-time.
 
-🗂️ Project Structure
+#🗂️ Project Structure
+```bash
 .
 ├── app.py                 # Main Streamlit app
 ├── .env                   # (Ignored) Your API keys and email credentials
 ├── .env.example           # Example env file with placeholders
-├── README.md              # This file
+├── README.md              # Project documentation
 ├── requirements.txt       # Python dependencies
 ├── notebook/              # Jupyter notebooks (optional)
 ├── outputs/               # Generated outputs (drafts, research, etc.)
@@ -34,6 +35,7 @@ Easy-to-use web app where you can input emails, preview categorization & researc
 │   └── workflow.py
 ├── utils/                 # Utility scripts
 └── venv/                  # Python virtual environment
+```
 
 
 🛠️ Setup
@@ -41,7 +43,7 @@ git clone https://github.com/jaywagh7/AI-Email-Responder.git
 cd AI-Email-Responder
 
 2️⃣ Create and activate a virtual environment
-
+```bash
 # Install virtualenv if you don't have it
 pip install virtualenv
 
@@ -53,15 +55,15 @@ venv\Scripts\activate
 
 # Activate (Mac/Linux)
 source venv/bin/activate
-
+```
 3️⃣ Install dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 
 4️⃣ Create .env file
 Copy .env.example to .env and fill in your credentials:
-
+```bash
 GROQ_API_KEY=your_groq_api_key
 TAVILY_API_KEY=your_tavily_api_key
 EMAIL_HOST=smtp.gmail.com
@@ -70,11 +72,12 @@ EMAIL_USE_SSL=true
 EMAIL_HOST_USER=youremail@example.com
 EMAIL_HOST_PASSWORD=your_email_password
 EMAIL_FROM=youremail@example.com
+```
 
 📈 Run the App
-
+```bash
 streamlit run app.py
-
+```
 
 ✨ Usage
 1️⃣ Enter the incoming email content in the text area.
@@ -83,19 +86,15 @@ streamlit run app.py
 4️⃣ Review the response:
 
 Edit it if needed.
-
 Preview it.
-
 Save draft.
-
 Send again if needed.
+
 5️⃣ Previous drafts and responses are saved in history.
 
 📋 Notes
 Your .env file is ignored in .gitignore so your secrets stay safe.
-
 Do not commit .env to your repository.
-
 You can edit the name, templates, or prompts in src/prompts.py to customize responses.
 
 🤝 Contributing
