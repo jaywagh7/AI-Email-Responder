@@ -14,14 +14,8 @@ def initialize_session_state():
         st.session_state.response_counter = 0
 
 def display_header():
-    col1, col2 = st.columns([1, 8])
-    
-    with col1:
-        st.image("IMG/icon.png", width=40)  # adjust path & size as needed
+    st.title("✉️ Email Response Generator")
 
-    with col2:
-        st.markdown("### ✉️ Email Response Generator")
-        
 def display_input_section():
     with st.container():
         st.markdown('<p class="section-title">📝 Input Email</p>', unsafe_allow_html=True)
