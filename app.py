@@ -21,13 +21,15 @@ def display_input_section():
         st.markdown('<p class="section-title">📝 Input Email</p>', unsafe_allow_html=True)
         email_content = st.text_area(
             label="",
-            placeholder="""Hi, Bunny!
+            placeholder="""Hey there!
 
-It's Day 2 of your automation adventure with Apify, and it's time to connect the dots! 
-Integrating your Actors with other solutions you use opens up a world of possibilities, 
-making your workflows smarter and your life easier.
+Just checking in — it's time to supercharge your research workflow! 🚀  
+With your AI assistant up and running, you can now generate smart content, summarize faster, and explore topics like never before.
 
-Have fun!
+Keep experimenting, and see where curiosity takes you!
+
+Cheers,
+Your AI Research Assistant 🧠
 """,
             height=400,
             key="email_input"
