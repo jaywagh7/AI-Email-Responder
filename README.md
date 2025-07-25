@@ -4,6 +4,7 @@ A Streamlit application that automatically processes and generates professional 
 The app leverages LangChain, Groq, and Tavily for understanding, research, and response generation.
 
 🚀 Key Features
+
 ✅ Email Categorization:
 Automatically categorizes emails into specific types like price inquiries, complaints, product queries, feedback, or off-topic.
 
@@ -64,11 +65,17 @@ pip install -r requirements.txt
 
 4️⃣ Create .env file
 Copy .env.example to .env and fill in your credentials:
+
+- [`GROQ_API_KEY`](https://console.groq.com/keys) — Get your Groq API key from the [Groq Console](https://console.groq.com/keys).
+- [`TAVILY_API_KEY`](https://app.tavily.com/) — Get your Tavily API key from the [Tavily Dashboard](https://app.tavily.com/).
 ```bash
+<<<<<<< HEAD
 
 - [GROQ_API_KEY](https://console.groq.com/keys) — Get your Groq API key from the Groq Console.
 - [TAVILY_API_KEY](https://app.tavily.com/) — Get your Tavily API key from the Tavily Dashboard.
 
+=======
+>>>>>>> 4e2f747f03c88731344838e5d188b05c483edc90
 GROQ_API_KEY=your_groq_api_key
 TAVILY_API_KEY=your_tavily_api_key
 EMAIL_HOST=smtp.gmail.com
@@ -86,8 +93,11 @@ streamlit run app.py
 
 ✨ Usage
 1️⃣ Enter the incoming email content in the text area.
+
 2️⃣ Enter the recipient’s email address.
+
 3️⃣ Click Generate Response & Send.
+
 4️⃣ Review the response:
 
 Edit it if needed.
