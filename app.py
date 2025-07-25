@@ -177,7 +177,7 @@ def display_response_section(response, is_new=False):
 def main():
     st.set_page_config(
         page_title="MailBuddy",
-        page_icon="📨",
+        page_icon="IMG/icon.png",
         layout="wide",
         initial_sidebar_state="collapsed",
         menu_items={
